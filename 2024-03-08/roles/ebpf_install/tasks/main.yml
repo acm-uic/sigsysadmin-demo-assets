@@ -1,0 +1,10 @@
+---
+- name: Install make
+  ansible.builtin.package:
+    name: make
+    state: present
+- name: Install clang
+  ansible.builtin.package:
+    name: clang
+    state: present
+
